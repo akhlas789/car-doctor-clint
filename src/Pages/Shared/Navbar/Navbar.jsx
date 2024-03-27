@@ -22,17 +22,17 @@ const Navbar = () => {
                         {navItem}
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost text-xl">
+                <Link to='/' className="btn btn-ghost text-lg">
                     <img src={logo} alt="" />
                 </Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+            <div className="navbar-center hidden lg:flex font-semibold">
+                <ul className="menu menu-horizontal px-1 text-lg">
                     {navItem}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <button className="btn btn-warning">Appointment</button>
+            <div className="navbar-end text-lg">
+                <button className="btn btn-warning font-semibold">Appointment</button>
             </div>
         </div>
     );
