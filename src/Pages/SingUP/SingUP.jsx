@@ -20,7 +20,7 @@ const SingUP = () => {
                 const user = result.user
                 console.log(user)
             })
-            .then(error => {
+            .catch(error => {
                 console.log(error)
             })
     }
